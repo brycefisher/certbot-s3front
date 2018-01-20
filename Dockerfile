@@ -1,4 +1,4 @@
-FROM python:3.5-jessie
+FROM python:2.7-jessie
 
 RUN pip install certbot certbot-s3front
 
