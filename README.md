@@ -13,6 +13,7 @@ Many python developers using virtualenv and friends to manage differing python d
 ```
 docker run \
   --rm \
+  -e EMAIL='me@example.com' \
   -e S3_BUCKET=example-bucket-name \
   -e AWS_SECRET_ACCESS_KEY=abcdef0123456789EXAMPLE \
   -e AWS_ACCESS_KEY_ID=AZAEXAMPLEACCESSKEYID \
